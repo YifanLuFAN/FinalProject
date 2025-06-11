@@ -372,8 +372,8 @@ function scene15() {
   }
   let btnW = 600;
   let btnH = 60;
-  let btnX = width - btnW - 30;
-  let btnY = height - btnH - 30;
+  let btnX = 0;
+  let btnY = 0;
 
   fill(255);
   stroke(0);
