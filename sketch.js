@@ -1,4 +1,4 @@
-let currentScene = 14; // Start from scene1 (changed from 11 to 0 to start properly)
+let currentScene = 0; // Start from scene1 (changed from 11 to 0 to start properly)
 let video1, video2, video3, video4, video5, video6, video7, video8, video9, video10, video11, video12, video13, video14, video15, video16, video17, video18, video19, video20;
 let backgroundImg, mapImg, loseImg, winImg;
 let buttonStart, buttonMap, buttonBack, buttonWake, buttonKitchen, buttonLight, buttonToilet, buttonbutter, buttonclutter;
@@ -35,26 +35,26 @@ let vx, vy; // 速度
 let btnClicked = false; //
 
 function preload() {
-  video1 = createVideo('assets/1.mp4');
-  video2 = createVideo('assets/2.mp4');
-  video3 = createVideo('assets/3.mp4');
-  video4 = createVideo('assets/4.mp4');
-  video5 = createVideo('assets/5.mp4');
-  video6 = createVideo('assets/6.mp4');
-  video7 = createVideo('assets/7.mp4');
-  video8 = createVideo('assets/8.mp4');
-  video9 = createVideo('assets/9.mp4');
-  video10 = createVideo('assets/10.mp4');
-  video11 = createVideo('assets/11.mp4');
-  video12 = createVideo('assets/12.mp4');
-  video13 = createVideo('assets/13.mp4');
-  video14 = createVideo('assets/14.mp4');
-  video15 = createVideo('assets/15.mp4');
-  video16 = createVideo('assets/16.mp4');
-  video17 = createVideo('assets/17.mp4'); 
-  video18 = createVideo('assets/18.mp4');
-  video19 = createVideo('assets/19.mp4');
-  video20 = createVideo('assets/20.mp4');
+  video1 = createVideo('1.mp4');
+  video2 = createVideo('2.mp4');
+  video3 = createVideo('3.mp4');
+  video4 = createVideo('4.mp4');
+  video5 = createVideo('5.mp4');
+  video6 = createVideo('6.mp4');
+  video7 = createVideo('7.mp4');
+  video8 = createVideo('8.mp4');
+  video9 = createVideo('9.mp4');
+  video10 = createVideo('10.mp4');
+  video11 = createVideo('11.mp4');
+  video12 = createVideo('12.mp4');
+  video13 = createVideo('13.mp4');
+  video14 = createVideo('14.mp4');
+  video15 = createVideo('15.mp4');
+  video16 = createVideo('16.mp4');
+  video17 = createVideo('17.mp4'); 
+  video18 = createVideo('18.mp4');
+  video19 = createVideo('19.mp4');
+  video20 = createVideo('20.mp4');
 
 
   btnImg = loadImage('assets/button.png');
