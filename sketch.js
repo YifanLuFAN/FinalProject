@@ -362,7 +362,7 @@ function scene15() {
 
   fill(255, 255, 255, 255);
   textSize(120);
-  text("shout!", width/3, height/3);
+  text("shout!", width/2, height/3.5);
 
   
   image(mouseImg, width/2 - mouseSize/2, height/2 - mouseSize/2, mouseSize, mouseSize);
@@ -370,7 +370,30 @@ function scene15() {
   if (mouseSize > threshold) {
     currentScene = 15;
   }
-   
+  let btnW = 600;
+  let btnH = 60;
+  let btnX = width - btnW - 30;
+  let btnY = height - btnH - 30;
+
+  fill(255);
+  stroke(0);
+  strokeWeight(2);
+  rect(btnX, btnY, btnW, btnH, 10);
+
+  fill(0);
+  noStroke();
+  textSize(16);
+  textAlign(CENTER, CENTER);
+  text("If your browswer banned this effect, plz click to continue", btnX + btnW / 2, btnY + btnH / 2);
+
+  // 检查是否点击按钮
+  if (
+    mouseIsPressed &&
+    mouseX > btnX && mouseX < btnX + btnW &&
+    mouseY > btnY && mouseY < btnY + btnH
+  ) {
+    currentScene = 15; // 跳转到下一页
+  }
 }
 
 function scene16() {
