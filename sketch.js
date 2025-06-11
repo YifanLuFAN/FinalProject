@@ -731,8 +731,8 @@ function mousePressed() {
       if (mouseX > 550 && mouseX < 730 && mouseY > 600 && mouseY < 680) {currentScene = 18; video16.elt.currentTime = 0;}
       break;
     case 22: // scene23 - video 14 get the butter first
-      if (mouseX > 300 && mouseX < 480 && mouseY > 600 && mouseY < 680) currentScene = 23; // retry
-      if (mouseX > 800 && mouseX < 980 && mouseY > 600 && mouseY < 680) currentScene = 26; // home
+      if (mouseX > 300 && mouseX < 480 && mouseY > 600 && mouseY < 680) currentScene = 23; // 
+      if (mouseX > 800 && mouseX < 980 && mouseY > 600 && mouseY < 680) currentScene = 26; // 
       break;
     case 23: // scene24 - video 12 search the toliet first
       if (mouseX > 550 && mouseX < 730 && mouseY > 600 && mouseY < 680) {currentScene = 24; video12.elt.currentTime = 0;}
@@ -744,10 +744,10 @@ function mousePressed() {
       if (mouseX > 550 && mouseX < 730 && mouseY > 600 && mouseY < 680) {currentScene = 28; video17.elt.currentTime = 0;}
       break;
     case 26: // scene27 - video 15 search the clutter first
-      if (mouseX > 550 && mouseX < 730 && mouseY > 600 && mouseY < 680) {currentScene = 27; video12.elt.currentTime = 0;}
+      if (mouseX > 550 && mouseX < 730 && mouseY > 600 && mouseY < 680) {currentScene = 27; video15.elt.currentTime = 0;}
       break;
     case 27: // scene28 - video 12  then search the toliet
-      if (mouseX > 550 && mouseX < 730 && mouseY > 600 && mouseY < 680) {currentScene = 25; video15.elt.currentTime = 0;}
+      if (mouseX > 550 && mouseX < 730 && mouseY > 600 && mouseY < 680) {currentScene = 25; video12.elt.currentTime = 0;}
       break;
     case 28: // scene29 - video 18 get close to the mouse
       if (mouseX > 550 && mouseX < 730 && mouseY > 600 && mouseY < 680) {currentScene = 29; video18.elt.currentTime = 0;}
