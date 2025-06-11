@@ -71,7 +71,7 @@ function preload() {
 function setup() {
   createCanvas(1280, 720);
   backgroundImg = loadImage('assets/cover.png');
-  mapImg = loadImage('assets/Map.png');
+  mapImg = loadImage('assets/map.png');
   loseImg = loadImage('assets/lose.png');
   winImg = loadImage('assets/win.png');
 
